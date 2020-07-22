@@ -1,0 +1,139 @@
+﻿body {
+    font-family:  -apple-system, Avenir, "Noto Sans", "Microsoft Yahei UI", "Lucida Sans Unicode", "Arial Unicode MS";
+    font-size: .9em;
+    line-height: 1.4;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+leatitle {
+    font-weight: bold;
+    color: maroon;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    margin-top: 0.5em;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.bolditalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+key {
+    color: coral;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 0.4em;
+    margin-top: 0.8em;
+}
+
+grouphead {
+    font-weight: bold;
+    font-size: 95%;
+    display: block;
+    margin-left: 1.4em;
+    margin-top: 0.8em;
+}
+
+ex {
+    font-style: normal;
+    color: #369;
+    letter-spacing: 0.5px;
+    font-size: 95%;
+    margin-left: 4.2em;
+    text-indent: -1.4em;
+    display: block;
+}
+
+ex::before {
+    content: '⇒ ';
+    color: coral;
+    display: inline;
+    font-size: 95%;
+    font-weight: normal;
+}
+
+note {
+    display: block;
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 95%;
+}
+
+note>ex {
+    margin-left: 2.8em;
+}
+
+notehead {
+    display: none;
+}
+
+body>p {
+    margin-left: 1.4em;
+}
+
+key+.italic {
+    display: none;
+}
+
+p+ex {
+    margin-top: 0.2em;
+}
+
+.form {
+    font-size: 90%;
+    color: #00803A;
+}
+
+.num {
+    color: #00C;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.4em;
+    font-size: 90%;
+    margin-left: -1.6em;
+}
+
+.error {
+    text-decoration: line-through;
+    color: red;
+    font-size: 95%;
+}
+
+.form2 {
+    font-style: italic;
+    color: teal;
+    font-size: 85%;
+    letter-spacing: 0.5px;
+}
+
+note>p+p {
+    margin-top: 0.4em;
+}
+
+a {
+    color: #E6005C;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.see{
+    font-size: 95%;
+}

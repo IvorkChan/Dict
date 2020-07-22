@@ -1,0 +1,525 @@
+body {
+    margin: 0.5em;
+    padding: 0.5em;
+    word-wrap: break-word!important;
+    font-family:  -apple-system, Avenir, "Noto Sans", "Microsoft YaHei UI", "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "WenQuanYi Micro Hei", sans-serif;
+    line-height: 1.2em;
+    font-size: .95em;
+}
+
+.hw {
+    display: inline-block;
+    font-size: 100%;
+    color: maroon;
+    font-weight: bold;
+    margin-right: 1em;
+    counter-reset: section;
+}
+
+.abbr {
+    font-weight: bold;
+    color: #0053a0;
+}
+
+.ac {
+    color: #0053a0;
+    font-weight: bold;
+    font-size: 85%;
+    padding: 0 2px 1px 2px;
+    border: 1px solid #0053a0;
+}
+
+.antonymbox {
+    display: block;
+    margin-top: 15px;
+}
+
+.badcollo {
+    font-style: italic;
+    color: red;
+}
+
+.badexa {
+    font-style: italic;
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.collobox {
+    display: block;
+    font-size: 95%;
+}
+
+.colloinexa {
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.sense>.crossref {
+    display: block;
+    /*background: #F8F8FF;*/
+    background: rgb(255, 255, 255);
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 95%;
+    margin-left: -1em;
+}
+
+.antonymbox .crossref {
+    display: inline;
+}
+
+.thesbox .def {
+    display: block;
+}
+
+.defbold {
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.error {
+    display: block;
+}
+
+.errorbox {
+    display: block;
+    /*background: #F8F8FF;*/
+    background: rgb(255, 255, 255);
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 95%;
+}
+
+.example, .collexa {
+    display: block;
+    margin-left: 1.4em;
+    color: #336699;
+    /* font-size: 95%; */
+    /* margin-top: 0.3em; */
+}
+
+.collexa::before {
+    display: inline-block;
+    content: "\021D2\020";
+    color: #ff7e1e;
+    width: 1.4em;
+    margin-left: -1.4em;
+}
+
+.exponent {
+    display: block;
+    margin-top: 5px;
+}
+
+.expr {
+    font-weight: bold;
+    font-size: 95%
+}
+
+.expl .expr {
+    font-size: 90%;
+}
+
+.formalitybox {
+    display: block;
+}
+
+.geo {
+    font-style: italic;
+    color: teal;
+    font-size: 85%;
+    letter-spacing: 0.5px;
+}
+
+.goodcollo {
+    font-style: italic;
+    color: green;
+}
+
+.goodexa {
+    font-style: italic;
+    color: green;
+}
+
+.gridbox {
+    display: block;
+}
+
+head {
+    display: block;
+}
+
+.heading {
+    font-weight: bold;
+    color: black;
+    font-size: 90%;
+}
+
+.homnum {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+    vertical-align: super;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.hwd {
+    font-weight: bold;
+    color: maroon;
+    font-size: 95%;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.entryhead .lexvar {
+    font-weight: bold;
+}
+
+.linkword {
+    font-style: italic;
+    color: teal;
+    font-size: 85%;
+    letter-spacing: 0.5px;
+    margin-right: 0.4em;
+}
+
+.note {
+    display: block;
+    /*background: #F8F8FF;*/
+    background: rgb(255, 255, 255);
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 95%;
+}
+
+.orthvar {
+    display: inline-block;
+    font-size: 95%;
+    color: red;
+    font-weight: bold;
+    counter-reset: section;
+}
+
+.pos {
+    color: darkgreen;
+    font-style: italic;
+}
+
+.gram {
+    display: none;
+}
+
+.refhwd {
+    font-weight: bold;
+    color: #0053a0;
+}
+
+.registerlab {
+    font-style: italic;
+    color: teal;
+    font-size: 85%;
+    letter-spacing: 0.5px;
+}
+
+.collocontent {
+    display: block;
+}
+
+.collosection {
+    margin-bottom: 1em;
+    display: block;
+}
+
+.sense {
+    display: block;
+    margin-left: 1.4em;
+    counter-increment: section;
+    margin-top: 0.8em;
+}
+
+strong {
+    font-style: italic;
+}
+
+.thesbox {
+    display: block;
+    margin-top: 15px;
+}
+
+.thesref {
+    color: red;
+    font-weight: bold;
+    font-size: 90%;
+    text-transform: lowercase;
+    text-indent: -1.4em;
+}
+.antonymbox>.SecHeading {
+    color: red;
+    font-weight: bold;
+    font-size: 90%;
+    text-transform: lowercase;
+}
+
+.neutral {
+    font-weight: normal;
+    font-style: normal;
+    background-color: none;
+}
+
+.suppress {
+    display: none;
+}
+
+.theshead, .refexps, .editrefexps {
+    font-weight: bold;
+}
+
+.secheadinghwd {
+    text-transform: uppercase;
+}
+
+.newline {
+    display: block;
+}
+
+.pluralform, .ptandpp, .comp, .superl, .prespart {
+    font-weight: bold;
+}
+
+.infllab {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.sensenum {
+    display: none;
+}
+
+.def::before {
+    font-weight: bold;
+    color: #0000ff;
+    content: counter(section)".";
+    display: inline-block;
+    width: 1.4em;
+    margin-left: -1.4em;
+}
+
+.entrythesbox {
+    display: block;
+    margin-top: 30px;
+}
+
+.thesbox {
+    border-color: #0053a0;
+}
+
+/* .thesbox .boxsection {
+    background-color: #f0f2fc;
+} */
+
+body>b {
+    display: none;
+}
+
+table {
+    display: none;
+}
+
+.pron, .amevarpron {
+    font-size: 90%;
+    color: sienna;
+    white-space: nowrap;
+    display: inline;
+}
+
+.pron>i {
+    font-style: normal;
+}
+
+.amevarpron>.neutral {
+    display: none;
+}
+
+.amevarpron::before {
+    content: "AmE";
+    white-space: pre;
+    font-style: italic;
+    color: teal;
+    font-size: 85%;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.proncodes {
+    margin-left: 0.4em;
+}
+
+.pos {
+    display: inline-block;
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 90%;
+    font-style: normal;
+    margin-left: 0.4em;
+}
+
+.entry {
+    display: block;
+    margin-top: 0.3em;
+}
+
+.collocate {
+    margin-left: 1.8em;
+    display: block;
+    counter-increment: colloc;
+    margin-top: 0.3em;
+}
+
+.colloc {
+    color: black;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.collocate::before {
+    content: counter(colloc, lower-alpha)'.';
+    color: coral;
+    font-weight: bold;
+    width: 1.8em;
+    font-size: 95%;
+    margin-left: -1.8em;
+    display: inline-block;
+}
+
+.secheading {
+    font-size: 90%;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin-top: 0.8em;
+    /* margin-left: 1.4em; */
+    color: #00803A;
+    counter-reset: colloc;
+}
+
+/* .secheading::before {
+    font-weight: bold;
+    color: #0000ff;
+    content: counter(section)".";
+    display: inline-block;
+    width: 1.4em;
+    margin-left: -1.4em;
+} */
+
+.collexa>.neutral {
+    display: none;
+}
+
+.boxheading {
+    font-size: 90%;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin-top: 0.8em;
+    /* margin-left: 1.4em; */
+    color: #00803A;
+}
+
+.exponent>.def::before {
+    display: none;
+}
+
+.exp, .lexvar {
+    color: #FF7E1E;
+    font-weight: bold;
+    font-size: 90%;
+    display: inline-block;
+}
+
+.exphead {
+    display: block;
+    /*background: #F8F8FF;*/
+    background: rgb(255, 255, 255);
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 95%;
+}
+
+.thescollo {
+    font-weight: bold;
+    color: black;
+    font-size: 90%;
+}
+
+.thescollobox {
+    display: block;
+}
+
+.thescollocnt {
+    display: block;
+}
+
+.exponent>.def {
+    margin-left: 1.4em;
+}
+
+.exponent>.expexas>.example {
+    margin-left: 2.8em;
+    font-size: 0.95em;
+}
+
+.exponent>.expexas>.example>.neutral {
+    display: none;
+}
+
+.exponent>.expexas>.example::before {
+    display: inline-block;
+    content: "\021D2\020";
+    color: #ff7e1e;
+    width: 1.4em;
+    margin-left: -1.4em;
+}
+
+.note .example {
+    margin-left: 2.8em;
+}
+
+.note .example::before {
+    display: inline-block;
+    content: "\021D2\020";
+    color: #ff7e1e;
+    width: 1.4em;
+    margin-left: -1.4em;
+}
+
+a {
+    color: #E6005C;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.collocontent>.collocate>.variant>.lexvar{
+    color: black;
+}

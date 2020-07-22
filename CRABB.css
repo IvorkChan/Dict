@@ -1,0 +1,84 @@
+body {
+    font-family:  -apple-system, Avenir, "Microsoft YaHei UI", sans-serif;
+    font-size: .9em;
+    line-height: 1.4em;
+}
+
+.hw {
+    color: maroon;
+    font-weight: bold;
+    display: none;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+br {
+   display: none;
+}
+
+.keys, .keys2 {
+    margin-left: -1em;
+    color: darkslategrey;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 90%;
+    text-transform: lowercase;
+    background-color: whitesmoke;
+    padding: .1em .5em;
+    border-radius: .4em;
+}
+
+.keys>b, .keys2>b {
+    font-weight: bold;
+}
+
+.italic {
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    color: steelblue;
+}
+
+.group, .group2 {
+    margin-left: 1em;
+}
+
+.group2 {
+    margin-top: 1em;
+}
+
+a {
+    color: #E6005C;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.para {
+    margin-top: 0.3em;
+    text-indent: 1.6em;
+}
+
+.keys+.para, .keys2+.para {
+    /* margin-top: 0em; */
+    text-indent: 0em;
+}
+
+.see {
+    display: block;
+    /*background: #F8F8FF;*/
+    background: rgb(255, 255, 255);
+    border: 1px dashed #C0C0C0;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 6px 6px 6px 8px;
+    box-shadow: #808080;
+    font-size: 90%;
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+.see>a {
+    font-size: 100%;
+}
